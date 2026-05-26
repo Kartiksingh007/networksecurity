@@ -1,0 +1,13 @@
+[2026-05-27 01:34:08,782] 15 root - INFO - Initiate data ingestion
+[2026-05-27 01:34:08,783] 96 pymongo.serverSelection - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 6a15fcb84f7049e29f7818dc, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-jflgynl-shard-00-00.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-jflgynl-shard-00-01.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-jflgynl-shard-00-02.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6a15fcb84f7049e29f7818dc"}, "remainingTimeMS": 29}
+[2026-05-27 01:34:12,662] 90 root - INFO - Performed train test split on the dataframe
+[2026-05-27 01:34:12,663] 92 root - INFO - Excited split_data_as_train_test method of Data_Ingestion class
+[2026-05-27 01:34:12,663] 99 root - INFO - Exporting train and test file path 
+[2026-05-27 01:34:12,749] 108 root - INFO - Exported Train and test file path
+[2026-05-27 01:34:12,749] 17 root - INFO - Data initiation Completed
+[2026-05-27 01:34:12,752] 21 root - INFO - Initiate data Validation
+[2026-05-27 01:34:12,785] 34 root - INFO - Required numbers of columns:2
+[2026-05-27 01:34:12,785] 35 root - INFO - Dataframe has columns:31
+[2026-05-27 01:34:12,785] 34 root - INFO - Required numbers of columns:2
+[2026-05-27 01:34:12,785] 35 root - INFO - Dataframe has columns:31
+[2026-05-27 01:34:12,945] 23 root - INFO - Data Validation Completed
