@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/deeparani/Desktop/Network Security/mlruns/0/782cfd5a317445ad8575fa97f68f2580/artifacts
+end_time: 1780127783930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 782cfd5a317445ad8575fa97f68f2580
+run_name: learned-bee-729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780127781517
+status: 3
+tags: []
+user_id: deeparani

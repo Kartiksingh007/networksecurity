@@ -1,0 +1,10 @@
+artifact_location: file:///Users/deeparani/Desktop/Network Security/mlruns/0/models/m-0f044cc35c6e49529cad39ba96d50a5a/artifacts
+creation_timestamp: 1780065713565
+experiment_id: '0'
+last_updated_timestamp: 1780065715381
+model_id: m-0f044cc35c6e49529cad39ba96d50a5a
+model_type: null
+name: network_security_model
+source_run_id: 73bae829e73040c18db3257760a8eff5
+status: 2
+status_message: null

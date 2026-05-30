@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/deeparani/Desktop/Network Security/mlruns/0/09a7bde0c82c416e82e4474ab9d9c75f/artifacts
+end_time: 1780065235531
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09a7bde0c82c416e82e4474ab9d9c75f
+run_name: polite-crow-230
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780065233660
+status: 3
+tags: []
+user_id: deeparani

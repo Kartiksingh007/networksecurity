@@ -28,7 +28,7 @@ class DataTransfromation:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
-    def get_data_transformer_object(cls)->Pipeline:
+    def get_data_transformer_object(self)->Pipeline:
         """
         It initialises the KNN imputer object with the parameters specified in the training pipeline.py file
         and returns a pipeline object with the KNN imputer object as the first steo.
@@ -80,7 +80,7 @@ class DataTransfromation:
 
             # save_numpy_array_data
 
-            save_numpy_array_data(self.data_transformation_config.transformed_object_file_path,array=train_arr)
+            save_numpy_array_data(self.data_transformation_config.transformed_train_file_path,array=train_arr)
             save_numpy_array_data(self.data_transformation_config.transformed_test_file_path,array=test_arr)
             save_object(
                 self.data_transformation_config.transformed_object_file_path,
