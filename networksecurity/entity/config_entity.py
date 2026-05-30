@@ -121,7 +121,7 @@ class ModelTrainerConfig:
             training_pipeline_config.artifact_dir,training_pipeline.MODEL_TRAINER_DIR_NAME
         )
         self.trained_model_file_path:str=os.path.join(
-            self.model_trainer_dir,training_pipeline.MODEL_TRAINER_TRAINED_MODEL_DIR
+            self.model_trainer_dir,training_pipeline.MODEL_TRAINER_DIR_NAME
         )
         self.expected_accuracy:float=training_pipeline.MODEL_TRAINER_EXPECTED_SCORE
         self.overfitting_underfitting_threshold = training_pipeline.MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD
