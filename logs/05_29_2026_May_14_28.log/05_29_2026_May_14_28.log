@@ -1,0 +1,27 @@
+[2026-05-29 17:14:30,673] 18 root - INFO - Initiate data ingestion
+[2026-05-29 17:14:30,673] 96 pymongo.serverSelection - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "listDatabases", "topologyDescription": "<TopologyDescription id: 6a197c1e202052600dfeb219, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-jflgynl-shard-00-00.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-jflgynl-shard-00-01.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-jflgynl-shard-00-02.iohdoef.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6a197c1e202052600dfeb219"}, "remainingTimeMS": 29}
+[2026-05-29 17:14:33,822] 90 root - INFO - Performed train test split on the dataframe
+[2026-05-29 17:14:33,822] 92 root - INFO - Excited split_data_as_train_test method of Data_Ingestion class
+[2026-05-29 17:14:33,822] 99 root - INFO - Exporting train and test file path 
+[2026-05-29 17:14:33,908] 108 root - INFO - Exported Train and test file path
+[2026-05-29 17:14:33,908] 20 root - INFO - Data initiation Completed
+[2026-05-29 17:14:33,910] 25 root - INFO - Initiate data Validation
+[2026-05-29 17:14:33,936] 34 root - INFO - Required numbers of columns:2
+[2026-05-29 17:14:33,937] 35 root - INFO - Dataframe has columns:31
+[2026-05-29 17:14:33,937] 34 root - INFO - Required numbers of columns:2
+[2026-05-29 17:14:33,937] 35 root - INFO - Dataframe has columns:31
+[2026-05-29 17:14:34,095] 27 root - INFO - Data Validation Completed
+[2026-05-29 17:14:34,095] 31 root - INFO - Data transformation started
+[2026-05-29 17:14:34,095] 55 root - INFO - Entered initiate data_transformation method of Data Transformation class
+[2026-05-29 17:14:34,095] 57 root - INFO - Starting data transformation
+[2026-05-29 17:14:34,121] 43 root - INFO - Entered get_data_transformer_object methods of transformation class
+[2026-05-29 17:14:34,121] 46 root - INFO - Initialize KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-05-29 17:14:34,129] 48 root - INFO - Entered the save_obj methods of Make utils class
+[2026-05-29 17:14:34,131] 52 root - INFO - Exited the save_obj method of Mainutils class
+[2026-05-29 17:14:34,132] 36 root - INFO - Data Transformation completed
+[2026-05-29 17:14:34,132] 38 root - INFO - Data Transformation completed
+[2026-05-29 17:14:34,132] 48 root - INFO - Model Training Started
+[2026-05-29 17:20:15,598] 48 root - INFO - Entered the save_obj methods of Make utils class
+[2026-05-29 17:20:15,618] 52 root - INFO - Exited the save_obj method of Mainutils class
+[2026-05-29 17:20:15,618] 113 root - INFO - Model Trainer Artifact:ModelTrainerArtifact(trained_model_file_path='Artifacts/05_29_2026_17_14_28/model_trainer/trained_model', trained_metrics_artifact=ClassificationMetricsArtifact(f1_score=0.9911264648106753, precision_score=0.9901204493165516, recall_score=0.9921345267154869), test_metrics_artifact=ClassificationMetricsArtifact(f1_score=0.9880713041147299, precision_score=0.9860888175494917, recall_score=0.9900617781359119))
+[2026-05-29 17:20:15,619] 50 root - INFO - Model Training Completed

@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  pvalue: 0.9986526587955215
+DNSRecord:
+  drift_status: false
+  pvalue: 0.9999999999999661
+Domain_registeration_length:
+  drift_status: false
+  pvalue: 0.9999290983214246
+Favicon:
+  drift_status: false
+  pvalue: 0.9999831413362549
+Google_Index:
+  drift_status: false
+  pvalue: 1.0
+HTTPS_token:
+  drift_status: false
+  pvalue: 0.9999983240636093
+Iframe:
+  drift_status: false
+  pvalue: 0.9999999999999661
+Links_in_tags:
+  drift_status: false
+  pvalue: 1.0
+Links_pointing_to_page:
+  drift_status: false
+  pvalue: 1.0
+Page_Rank:
+  drift_status: false
+  pvalue: 1.0
+Prefix_Suffix:
+  drift_status: false
+  pvalue: 0.9999961302065073
+Redirect:
+  drift_status: false
+  pvalue: 0.9988007988119522
+Request_URL:
+  drift_status: false
+  pvalue: 0.9346948266567235
+Result:
+  drift_status: false
+  pvalue: 0.9999999999997913
+RightClick:
+  drift_status: false
+  pvalue: 0.9999983240636093
+SFH:
+  drift_status: false
+  pvalue: 0.9837150602986787
+SSLfinal_State:
+  drift_status: false
+  pvalue: 0.8877202274650701
+Shortining_Service:
+  drift_status: false
+  pvalue: 0.9996310245366615
+Statistical_report:
+  drift_status: false
+  pvalue: 1.0
+Submitting_to_email:
+  drift_status: false
+  pvalue: 0.9999290983214246
+URL_Length:
+  drift_status: false
+  pvalue: 0.7072990318667914
+URL_of_Anchor:
+  drift_status: false
+  pvalue: 0.9371808063360356
+age_of_domain:
+  drift_status: false
+  pvalue: 0.9530337169469408
+double_slash_redirecting:
+  drift_status: false
+  pvalue: 1.0
+having_At_Symbol:
+  drift_status: false
+  pvalue: 0.9999865833269358
+having_IP_Address:
+  drift_status: false
+  pvalue: 0.9997260890640965
+having_Sub_Domain:
+  drift_status: false
+  pvalue: 0.7701384082879645
+on_mouseover:
+  drift_status: false
+  pvalue: 0.999897967392436
+popUpWidnow:
+  drift_status: false
+  pvalue: 0.9242055136120766
+port:
+  drift_status: false
+  pvalue: 0.9974270682729219
+web_traffic:
+  drift_status: false
+  pvalue: 0.5332913717442416

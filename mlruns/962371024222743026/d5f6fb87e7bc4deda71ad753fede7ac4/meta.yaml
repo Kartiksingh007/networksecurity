@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/deeparani/Desktop/Network Security/mlruns/962371024222743026/d5f6fb87e7bc4deda71ad753fede7ac4/artifacts
+end_time: 1780064263293
+entry_point_name: ''
+experiment_id: '962371024222743026'
+lifecycle_stage: active
+run_id: d5f6fb87e7bc4deda71ad753fede7ac4
+run_name: mercurial-hawk-488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780064260729
+status: 3
+tags: []
+user_id: deeparani
