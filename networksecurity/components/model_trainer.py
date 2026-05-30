@@ -1,5 +1,4 @@
 import os,sys
-import mlflow
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
@@ -20,6 +19,11 @@ from sklearn.ensemble import (
     GradientBoostingClassifier,
     RandomForestClassifier
 )
+
+import mlflow
+import dagshub
+dagshub.init(repo_owner='Kartiksingh007', repo_name='networksecurity', mlflow=True)
+
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
